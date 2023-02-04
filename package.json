@@ -1,7 +1,7 @@
 {
   "name": "com.rmc.rmc-web3",
   "displayName": "RMC Web3",
-  "version": "1.0.0",
+  "version": "0.5.5",
   "unity": "2021.3",
   "description": "Web3 library for Unity Development by Rivello Multimedia Consulting",
   "keywords": [
