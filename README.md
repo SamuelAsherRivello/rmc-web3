@@ -1,5 +1,4 @@
 [![npm package](https://img.shields.io/npm/v/com.rmc.rmc-web3)](https://www.npmjs.com/package/com.rmc.rmc-web3)
-[![openupm](https://img.shields.io/npm/v/com.rmc.rmc-web3?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.rmc.rmc-web3/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # RMC Web3
