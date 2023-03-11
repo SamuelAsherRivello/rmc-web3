@@ -1,27 +1,78 @@
 [![npm package](https://img.shields.io/npm/v/com.rmc.rmc-web3)](https://www.npmjs.com/package/com.rmc.rmc-web3)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-# RMC Web3
+<img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
-Web3 library for Unity Development by Rivello Multimedia Consulting
+# RMC Core
 
+- [How To Use](#how-to-use)
 - [Install](#install)
-  - [via Git URL](#via-git-url)
+  - [Via NPM](#via-npm)
+  - [Via Git URL](#via-git-url)
   - [Tests](#tests)
-
+  - [Samples](#samples)
+- [Configuration](#configuration)
 
 <!-- toc -->
 
-### Install Depencencies via Git URL
+## How to use
+
+This is the **Core** library for Unity Development by Rivello Multimedia Consulting.
+
+It includes functionality for audio, custom data types, reusable Unity UI elements, visual transitions, and more.
+
+Import the package into your new or existing Unity Project. Enjoy!
+
+## Install
+
+### Via NPM
+
+You can either use the Unity Package Manager Window (UPM) or directly edit the manifest file. The result will be the same.
+
+**UPM**
+
+To use the [Package Manager Window](https://docs.unity3d.com/Manual/upm-ui.html), first add a [Scoped Registry](https://docs.unity3d.com/2023.1/Documentation/Manual/upm-scoped.html), then click on the interface menu ( `Status Bar → (+) Icon → Add Package By Name ...` ).
+
+**Manifest File**
+
+Or to edit the `Packages/manifest.json` directly with your favorite text editor, add a scoped registry then the following line(s) to dependencies block:
+
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "com.rmc"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.com.rmc.rmc-core": "1.1.5"
+    "com.com.rmc.rmc-web3": "1.0.1"
+  }
+}
+```
+Package should now appear in package manager.
 
 
-Open `Packages/manifest.json` with your favorite text editor. Add following line to the dependencies block:
+### Via Git URL
+
+You can either use the Unity Package Manager (UPM) Window or directly edit the manifest file. The result will be the same.
+
+**UPM**
+
+To use the [Package Manager Window](https://docs.unity3d.com/Manual/upm-ui.html) click on the interface menu ( `Status Bar → (+) Icon → Add Package From Git Url ...` ).
+
+**Manifest File**
+
+Or to edit the `Packages/manifest.json` directly with your favorite text editor, add following line(s) to the dependencies block:
 ```json
 {
   "dependencies": {
-   "com.rmc.rmc-core": "https://github.com/SamuelAsherRivello/rmc-core.git",
-   "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm",
-   "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+      "com.rmc.rmc-core": "https://github.com/SamuelAsherRivello/rmc-core.git",
+      "com.rmc.rmc-web3": "https://github.com/SamuelAsherRivello/rmc-web3.git"
   }
 }
 ```
@@ -40,12 +91,24 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 }
 ```
 
-### Import Samples
-To see clear use cases, import and run the samples:
+### Samples
 
-1. Open Unity and then open `Window > Package Manager`
-1. Select `RMC Web3` 
-1. Select Samples and import
+Some packages include optional samples with clear use cases. To import and run the samples:
+
+1. Open Unity 
+1. Complete the package installation (See above)
+1. Open the [Package Manager Window](https://docs.unity3d.com/Manual/upm-ui.html)
+1. Select this package 
+1. Select samples
+1. Import
+
+## Configuration
+
+* `Unity Target` - [Standalone MAC/PC](https://support.unity.com/hc/en-us/articles/206336795-What-platforms-are-supported-by-Unity-)
+* `Unity Version` - Any [Unity Editor](https://unity.com/download) 2021.x or higher
+* `Unity Rendering` - Any [Unity Render Pipeline](https://docs.unity3d.com/Manual/universal-render-pipeline.html)
+* `Unity Aspect Ratio` - Any [Unity Game View](https://docs.unity3d.com/Manual/GameView.html)
+
 
 Created By
 =============
@@ -59,8 +122,13 @@ Contact
 
 - Twitter - <a href="https://twitter.com/srivello/">@srivello</a>
 - Resume & Portfolio - <a href="http://www.SamuelAsherRivello.com">SamuelAsherRivello.com</a>
-- Git - <a href="https://github.com/SamuelAsherRivello/">Github.com/SamuelAsherRivello</a>
+- Source Code on Git - <a href="https://github.com/SamuelAsherRivello/">Github.com/SamuelAsherRivello</a>
 - LinkedIn - <a href="https://Linkedin.com/in/SamuelAsherRivello">Linkedin.com/in/SamuelAsherRivello</a> <--- Say Hello! :)
+
+License
+=============
+
+Provided as-is under MIT License | Copyright © 2023 Rivello Multimedia Consulting, LLC
 
 
 
