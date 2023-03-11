@@ -49,8 +49,8 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
     }
   ],
   "dependencies": {
-    "com.com.rmc.rmc-core": "1.1.5"
-    "com.com.rmc.rmc-web3": "1.0.1"
+    "com.rmc.rmc-core": "1.1.5"
+    "com.rmc.rmc-web3": "1.0.1"
   }
 }
 ```
