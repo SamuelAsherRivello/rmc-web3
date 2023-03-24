@@ -12,13 +12,13 @@
     "web3",
     "utility"
   ],
-  "homepage": "https://github.com/rmc/rmc-web3.git",
+  "homepage": "https://github.com/SamuelAsherRivello/rmc-web3.git",
   "bugs": {
-    "url": "https://github.com/rmc/rmc-web3/issues"
+    "url": "https://github.com/SamuelAsherRivello/rmc-web3/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rmc/rmc-web3.git"
+    "url": "git+ssh://git@github.com/SamuelAsherRivello/rmc-web3.git"
   },
   "license": "MIT",
   "author": "rmc (github.com/SamuelAsherRivello)",
