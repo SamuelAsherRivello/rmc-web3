@@ -3,14 +3,14 @@
 // ReSharper disable NonReadonlyMemberInGetHashCode
 namespace RMC.Web3.CustomWeb3System.Data.Types
 {
-    public class Address : IValidatable
+    public class Address : IValidatable<object>
     {
         //  Events ----------------------------------------
 
 
         //  Properties ------------------------------------
         public string Value { get; set; }
-        object IValidatable.Value { get { return Value;} }
+        object IValidatable<object>.Value { get { return Value;} }
         
         //  Fields ----------------------------------------
 

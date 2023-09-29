@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
-using RMC.Core.UI;
+using RMC.Core.UI.UnityUI;
 using RMC.Web3.CustomWeb3System.CustomWeb3System;
 using RMC.Web3.CustomWeb3System.Data.Types;
 using UnityEngine;
