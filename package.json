@@ -16,6 +16,19 @@
   "bugs": {
     "url": "https://github.com/SamuelAsherRivello/rmc-web3/issues"
   },
+  "scopedRegistries": [
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "com.rmc"
+      ]
+    }
+  ],
+  "dependencies":
+  {
+    "com.rmc.rmc-core": "1.4.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/SamuelAsherRivello/rmc-web3.git"
